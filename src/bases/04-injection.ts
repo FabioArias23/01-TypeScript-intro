@@ -9,7 +9,12 @@ export class Pokemon{
   constructor (
     public readonly id:number,
     public name: string,
-   /** Todo: Inyectar dependencias */
+   /** Todo: Inyectar dependencias 
+    * La inyeccion de dependecia no es mas que 
+    * a una clase añadirle una dependencia, 
+    * y esa dependecia va a tener algun tipo de dato
+    * puede ser una clase, una interface, las reglas que debemos implementar en esa clase 
+   */
    private readonly http: HttpAdapter
   ){}
 

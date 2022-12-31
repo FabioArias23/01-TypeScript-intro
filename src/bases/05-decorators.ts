@@ -16,7 +16,8 @@ class newPokemon {
  /* el decorador no es mas que una funcion
   que tiene acceso a la definicion de la clase en este caso
   pero puede tener acceso a la definicion del metodo  o a la definicion de la propiedad
-  etc.*/
+  etc.
+  la sobre escribimos*/
 const  MyDecorator = () =>{
     return (target: Function) =>{
         //console.log(target)
